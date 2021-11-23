@@ -20,8 +20,6 @@ export const Items = (props) => {
         <label className="sort">
           Sort Price By: {" \xa0\xa0 "} 
       <select
-        name="sort"
-        value="sort"
         onChange={(e) => props.sortprice(props.itemList, e.target.value)}
         >
         <option value="normal" >Normal</option>
